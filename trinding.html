@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width , initial-scale=1 , shrink-to-fit=no">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="dist/aos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:ital,wght@1,300&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="styelsheet" herf="css/stylesheet.css">
+</head>
+
+<body>
+
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="logo.png" width="30" height="30" class="d-inline-block align-top" alt="">
+                AnAnAsA
+            </a>
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#navbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item ">
+                        <a class="nav-link" href="home.html">Home </a>
+                    </li>
+
+                    <li class="nav-item ">
+
+                        <a class="nav-link" href="#">login </a>
+
+                    </li>
+
+
+                    <li class="nav-item ">
+                        <a class="nav-link" href="SignUp.html"> Sign up </a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="trinding.html">trinding </a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Category
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">mobiles</a>
+                        
+                            <a class="dropdown-item" href="trinding.html">trinding items</a>
+
+                            <a class="nav-link  dropdown-toggle " href="#" id="navbarDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: black;">
+                                kids <span class="caret"></span> </a>
+                            <div class="dropdown-submenu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">tops</a>
+                                <a class="dropdown-item" href="dress.html">dress</a>
+                                <a class="dropdown-item" href="#">baby bags</a>
+
+                            </div>
+
+                            <a class="nav-link dropdown-toggle " href="#" id="navbarDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: black;">
+                                Women <span class="caret"></span> </a>
+                            <div class="dropdown-submenu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="dress.html">Dress</a>
+                                <a class="dropdown-item" href="#">Tops</a>
+                                <a class="dropdown-item" href="#">shoes</a>
+
+                            </div>
+
+
+                        </div>
+
+                    </li>
+
+                </ul>
+
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"
+                        id="search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                    <ul class="list-group" id="list"></ul>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <br>
+    <br>
+
+    <!--first slideshow-->
+    <div>
+        <img src="images/home/img_bg_1.jpg" id="firstimage" class="firstimage"></img>
+        <div class="text" id="text">
+            <span class="text1" id="Category"> Men </span>
+            <br>
+            <span class="text2" id="collection"> COLLECTION</span>
+            <br>
+            <br>
+            <button type="button" class="btn btn-warning"> shop collection</button>
+
+        </div>
+        <div style="text-align:center">
+
+            <span class="dot" i id="firstdot" onclick="showIt3();"></span>
+            <span class="dot" id="secdot" onclick="showIt2();"></span>
+            <span class="dot" id="thirddot" onclick="showIt1();"></span>
+        </div>
+    </div>
+    </section>
+    
+    <p class="text4" style="text-align: center; margin-bottom: 150px;">Trending Items</p>
+    
+    <!--first col trind item-->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-md-4 col-sm-6" data-aos="fade-down">
+
+                <img src="images/item-15.jpg" style="height: 400px;">
+
+                <br>
+                <br>
+                <div class="center">
+                    <p>
+                        Blue Jumpsuit
+                    </p>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="peopleRating"> 10,875</span>
+                    <br>
+                    <span>$45 <del style="font-size: small;">$80</del> </span>
+                    <br>
+                    <br>
+                    <button type="button" class="btn btn-primary">Shop Now</button>
+
+                    <hr>
+
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6" data-aos="fade-up" style="margin-left: 20px;">
+
+                <img src="images/item-10.jpg" style="height: 400px;">
+
+                <br>
+                <br>
+                <div class="center">
+                    <p>
+                        hot short
+                    </p>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="peopleRating"> 20,875</span>
+                    <br>
+                    <span>$20 <del style="font-size: small;">$50</del> </span>
+                    <br>
+                    <br>
+                    <button type="button" class="btn btn-primary">Shop Now</button>
+
+                    <hr>
+                </div>
+
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6" data-aos="zoom-out" style="margin-left: 20px;">
+
+                <img src="images/item-7.jpg" style="height: 400px;">
+
+                <br>
+                <br>
+                <div class="center">
+                    <p>
+                        Grey t-shirt
+                    </p>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="peopleRating"> 4,875</span>
+                    <br>
+                    <span>$10 <del style="font-size: small;">$20</del> </span>
+                    <br>
+                    <br>
+                    <button type="button" class="btn btn-primary">Shop Now</button>
+
+                    <hr>
+                </div>
+
+            </div>
+
+
+
+        </div>
+    </div>
+
+    <!--2 trind product-->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-md-4 col-sm-6" data-aos="flip-left">
+
+                <img src="images/child.jpg    " style="height: 400px;">
+
+                <br>
+                <br>
+                <div class="center">
+                    <p>
+                        black Dress
+                    </p>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="peopleRating"> 10,875</span>
+                    <br>
+                    <span>$45 <del style="font-size: small;">$80</del> </span>
+                    <br>
+                    <br>
+                    <button type="button" class="btn btn-primary">Shop Now</button>
+
+                    <hr>
+
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6" data-aos="flip-left" style="margin-left: 20px;">
+
+                <img src="images/dress12.jpg" style="height: 400px;">
+
+                <br>
+                <br>
+                <div class="center">
+                    <p>
+                        white T-shirt
+                    </p>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="peopleRating"> 20,875</span>
+                    <br>
+                    <span>$20 <del style="font-size: small;">$50</del> </span>
+                    <br>
+                    <br>
+                    <button type="button" class="btn btn-primary">Shop Now</button>
+
+                    <hr>
+                </div>
+
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6" data-aos="flip-right">
+
+                <img src="images/item-11.jpg" style="height: 400px; margin-left: 20px;">
+
+                <br>
+                <br>
+                <div class="center">
+                    <p>
+                        samsung a51 white
+                    </p>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="peopleRating"> 4,875</span>
+                    <br>
+                    <span>$500 <del style="font-size: small;">$600</del> </span>
+                    <br>
+                    <br>
+                    <button type="button" class="btn btn-primary">Shop Now</button>
+
+                    <hr>
+                </div>
+
+            </div>
+
+
+        </div>
+    </div>
+    <!--3 col -->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-md-4 col-sm-6" data-aos="flip-left">
+
+                <img src="images/item-8.jpg    " style="height: 400px;">
+
+                <br>
+                <br>
+                <div class="center">
+                    <p>
+                        black Dress
+                    </p>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="peopleRating"> 10,875</span>
+                    <br>
+                    <span>$45 <del style="font-size: small;">$80</del> </span>
+                    <br>
+                    <br>
+                    <button type="button" class="btn btn-primary">Shop Now</button>
+
+                    <hr>
+
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6" data-aos="flip-left" style="margin-left: 20px;">
+
+                <img src="images/item-7.jpg" style="height: 400px;">
+
+                <br>
+                <br>
+                <div class="center">
+                    <p>
+                        white T-shirt
+                    </p>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="peopleRating"> 20,875</span>
+                    <br>
+                    <span>$20 <del style="font-size: small;">$50</del> </span>
+                    <br>
+                    <br>
+                    <button type="button" class="btn btn-primary">Shop Now</button>
+
+                    <hr>
+                </div>
+
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6" data-aos="flip-right">
+
+                <img src="images/samsung-a51-white-22.jpg" style="height: 400px; margin-left: 20px;">
+
+                <br>
+                <br>
+                <div class="center">
+                    <p>
+                        samsung a51 white
+                    </p>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="peopleRating"> 4,875</span>
+                    <br>
+                    <span>$500 <del style="font-size: small;">$600</del> </span>
+                    <br>
+                    <br>
+                    <button type="button" class="btn btn-primary">Shop Now</button>
+
+                    <hr>
+                </div>
+
+            </div>
+
+
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-md-4 col-sm-6" data-aos="flip-left">
+
+                <img src="images/baby2.jpeg   " style="height: 400px;">
+
+                <br>
+                <br>
+                <div class="center">
+                    <p>
+                        black Dress
+                    </p>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="peopleRating"> 10,875</span>
+                    <br>
+                    <span>$45 <del style="font-size: small;">$80</del> </span>
+                    <br>
+                    <br>
+                    <button type="button" class="btn btn-primary">Shop Now</button>
+
+                    <hr>
+
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6" data-aos="flip-left" style="margin-left: 20px;">
+
+                <img src="images/item-7.jpg" style="height: 400px;">
+
+                <br>
+                <br>
+                <div class="center">
+                    <p>
+                        white T-shirt
+                    </p>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="peopleRating"> 20,875</span>
+                    <br>
+                    <span>$20 <del style="font-size: small;">$50</del> </span>
+                    <br>
+                    <br>
+                    <button type="button" class="btn btn-primary">Shop Now</button>
+
+                    <hr>
+                </div>
+
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6" data-aos="flip-right">
+
+                <img src="images/baby1" style="height: 400px; margin-left: 20px;">
+
+                <br>
+                <br>
+                <div class="center">
+                    <p>
+                        samsung a51 white
+                    </p>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="peopleRating"> 4,875</span>
+                    <br>
+                    <span>$500 <del style="font-size: small;">$600</del> </span>
+                    <br>
+                    <br>
+                    <button type="button" class="btn btn-primary">Shop Now</button>
+
+                    <hr>
+                </div>
+
+            </div>
+
+
+        </div>
+    </div>
+    <br>
+    <br>
+    <p class="fash">"Fashion is about dressing according to what’s fashionable. Style is more about being yourself."
+        <br>
+
+        <br>
+        <span class="oscar">—Oscar de la Renta</span> </p>
+    <br>
+    <br>
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-4 col-sm-6" data-aos="flip-left">
+                <p class="text3">Fashions fade, style is eternal</p>
+                <p>
+                    Maecenas facilisis facilisis consequat. Curabitur fringilla pellentesque neque, imperdiet effic-
+                    tur urna gravida vel. Cras augue diam, sollicitudin sit amet felis ut, eleifend faucibus dui. Proin
+                    euismod suscipit lacus, et scelerisque nisi aliquam anunc feugiat mattis quam, ut luctus enim
+                    ultrices at. Maecenas facilisis facilisis consequat. Curabitur fringilla pellentesque neque,
+                    imperdiet efficitur urna gravida vel. Cras augue diam, sollicitudin sit amet felis ut, eleifend
+                    faucibus dui. Proin euismod suscipit lacus, et scelerisque nisi aliquam a. Nunc feugiat mattis
+                    quam, ut luctus enim ultrices at.
+
+                </p>
+                <img src="images/signature.png">
+            </div>
+            <div class="col-lg-5 col-md-4 col-sm-6" data-aos="flip-left">
+                <img src="images/dressss4.jpg" style="width: 99%;">
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <hr>
+    <br>
+    <!--sec blog-->
+    <div class="container">
+        <div class="row">
+
+            <div class="col-lg-5 col-md-4 col-sm-6" data-aos="flip-left">
+                <img src="images/image-box.jpg" style="width: 99%;">
+            </div>
+            <div class="col-lg-6 col-md-4 col-sm-6" data-aos="flip-left">
+                <p class="text3">The joy of dressing is an art</p>
+                <p>
+                    Maecenas facilisis facilisis consequat. Curabitur fringilla pellentesque neque, imperdiet effic-
+                    tur urna gravida vel. Cras augue diam, sollicitudin sit amet felis ut, eleifend faucibus dui. Proin
+                    euismod suscipit lacus, et scelerisque nisi aliquam anunc feugiat mattis quam, ut luctus enim
+                    ultrices at. Maecenas facilisis facilisis consequat. Curabitur fringilla pellentesque neque,
+                    imperdiet efficitur urna gravida vel. Cras augue diam, sollicitudin sit amet felis ut, eleifend
+                    faucibus dui. Proin euismod suscipit lacus, et scelerisque nisi aliquam a. Nunc feugiat mattis
+                    quam, ut luctus enim ultrices at.
+
+                </p>
+
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-4 col-sm-6" data-aos="flip-right" style=" margin-bottom: 120px;">
+                <p class="text3">The joy of dressing is an art</p>
+                <p>
+                    Maecenas facilisis facilisis consequat. Curabitur fringilla pellentesque neque, imperdiet effic-
+                    tur urna gravida vel. Cras augue diam, sollicitudin sit amet felis ut, eleifend faucibus dui. Proin
+
+
+                </p>
+            </div>
+            <div class="col-lg-6 col-md-4 col-sm-6" data-aos="flip-left">
+
+                <video autoplay="autoplay" controls="autoplay" id="vid">
+                    <source src="images/GLAMOUR Fashion Film 2019 - Directed by VIVIENNE .mp4" type="video/mp4">
+                </video>
+            </div>
+          
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <!--
+        footor
+    -->
+    
+    <footer class="page-footer ont-small special-color-dark  pt-4" style="height: 250px;">
+
+        <ul class="list-unstyled list-inline text-center">
+         
+         
+               <a href="#" class="fa fa-twitter"></a>
+          
+         
+                <a href="#" class="fa fa-facebook"></a>
+          
+          
+                <a href="#" class="fa fa-instagram"> </a>
+            
+            
+                <a href="#" class="fa fa-google"></a>
+            
+            
+                <a href="#" class="fa fa-youtube"></a>
+        </ul>
+        
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+       <div class="Add">
+            <ul class="list-unstyled">
+              <li>
+                <p>
+                 <a class="active" href="#"><i class="fa fa-fw fa-home"></i>  Egypt, Helwan, fcih</a>
+                    &nbsp;&nbsp;
+                    <a  class="active"href="#"><i class="fa fa-fw fa-envelope"></i>info@example.com </a>
+                    &nbsp;&nbsp;
+                  <a  class="active"href="#"><i class="fa fa-fw fa-user"></i>+ 01 134 567 89 </a>
+                  
+                  </p>        
+              </li>
+             
+            </ul>
+    
+          </div> 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+    
+        </footer> 
+        
+
+    <script src="js/jquery-3.5.1.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="dist/aos.js"></script>
+
+    <script src="js/home.js"></script>
+    <script>
+        document.getElementById('vid').play();
+    </script>
+
+
+</body>
+
+</html>
